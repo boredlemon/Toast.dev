@@ -1,6 +1,7 @@
 import React from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import Link from "next/link";
 export default function About(props) { 
   const technologies = [
     ["Next.js", "JavaScript", "Tailwind CSS", "Discord.js", "HTML/CSS"],
@@ -34,7 +35,7 @@ export default function About(props) {
               Ever since I got my first computer I had been thinking to be a software engineer for so long. 
               This came true when I wrote my first program in JavaScript which was my Discord Bot. 
               I learned a lot from the project like SQL, databases, JavaScript, Version Control, and much more. 
-              This was just the begining of my journey. As I got better at programming, I started to realize, "What if I could program my own programming language that I can use myself?"
+              This was just the begining of my journey. As I got better at programming, I started to realize, &quot;What if I could program my own programming language that I can use myself?&quot;
               That dream came true... I built my programming language in C and named it cup. Cup is an interpreted language and not compiled. I am willing to make it fully self hosted meaning
               that I will recreate the whole language in Cup!
               </span>

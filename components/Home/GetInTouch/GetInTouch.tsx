@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import Link from "next/link";
 export default function GetInTouch() {
   return (
     <div
@@ -22,14 +23,14 @@ export default function GetInTouch() {
         want to say hi, I&apos;ll try my best to get back and respond to you!
       </p>
       <div className="pt-4">
-        <a href="/contact" target={"_blank"} rel="noreferrer">
+        <Link href="/contact" target={"_blank"} rel="noreferrer">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "
           >
             Email Me
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

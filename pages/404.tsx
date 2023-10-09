@@ -428,7 +428,7 @@ export default function Error() {
         </svg>
 
         <h1>404</h1>
-        <p>Opps! We can't find this page.</p>
+        <p>Opps! We can not find this page :/</p>
 
         <Link href="/">
           <a className={styles.btn}>Return home</a>
