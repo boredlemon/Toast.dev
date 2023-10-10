@@ -65,14 +65,14 @@ Since i integrated some of my project into my website i'll i mention most of tec
 
 ### How To Use This
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https://github.com/Coffee/CoffeePortfolio.git). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https://github.com/CoffeeBit/CoffeePortfolio.git). Thanks!
 
 ## 🛠 Installation & Set Up
 
 1. Clone the repo CLI
 
    ```sh
-   git clone https://github.com/Coffee/CoffeePortfolio.git
+   git clone https://github.com/CoffeeBit/CoffeePortfolio.git
    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)

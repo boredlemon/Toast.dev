@@ -56,7 +56,7 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Coffee - Software Developer",
+    title: "Coffee - Programmer☕",
     description: `I do coding as my hobby! Click on my website to learn more ;)`,
     image: "/Coffee.png", 
     color: "#233554", 
@@ -66,7 +66,7 @@ export default function Home() {
     keywords: "software development, coding, web development",
     siteName: "Coffee.com",
     twitterUsername: "@Coffee4000", // Your Twitter username
-    canonicalURL: "https://github.com/Coffee",
+    canonicalURL: "https://github.com/CoffeeBit",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -79,8 +79,8 @@ export default function Home() {
         <meta name="robots" content="follow, index" />
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://github.com/Coffee`} />
-        <link rel="canonical" href={`https://github.com/Coffee`} />
+        <meta property="og:url" content={`https://github.com/CoffeeBit`} />
+        <link rel="canonical" href={`https://github.com/CoffeeBit`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Coffee" />
         <meta property="og:description" content={meta.description} />
@@ -114,7 +114,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https://github.com/Coffee"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/CoffeeBit"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}

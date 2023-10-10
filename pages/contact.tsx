@@ -1,6 +1,6 @@
-// pages/contact.tsx
-import { useState } from 'react';
+import { useState } from 'react'; 
 import axios from 'axios';
+import Head from "next/head";
 import Link from 'next/link';
 import MessageModal from '../components/MessageModal';
 
@@ -45,6 +45,9 @@ export default function Contact() {
       className="min-h-screen flex flex-col items-center justify-center p-4"
       style={{ background: 'linear-gradient(to bottom, #000046, #1CB5E0)' }}
     >
+      <Head>
+        <title>Email Coffee</title>
+      </Head>
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 w-full max-w-md">
         <h1 className="text-3xl font-bold mb-4 text-center text-gray-800">Email Coffee!</h1>
         <form onSubmit={handleSubmit}>
@@ -102,13 +105,13 @@ export default function Contact() {
           </div>
         </form>
         <div className="mt-4 text-center">
-  <Link href="/">
-    <a className="text-blue-500 hover:underline">Return Home</a>
-  </Link>
-</div>
-<div className="mt-4 text-center">
-  <a>Email form made by Coffee aka Dolphin#6086! Hope you enjoy!</a>
-</div>
+          <Link href="/">
+            <a className="text-blue-500 hover:underline">Return Home</a>
+          </Link>
+        </div>
+        <div className="mt-4 text-center">
+          <a>Email form made by Coffee aka Dolphin#6086! Hope you enjoy!</a>
+        </div>
       </div>
       {showMessageModal && (
         <MessageModal message={message} onClose={closeMessageModal} isError={isError} />

@@ -1,0 +1,27 @@
+.colorChange {
+  animation: colorChange 6s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #00bcd4; /* Light blue color */
+  }
+  20% {
+    color: #4caf50; /* Green color */
+  }
+  40% {
+    color: #ff5722; /* Red color */
+  }
+  60% {
+    color: #ffffff; /* White color */
+  }
+  80% {
+    color: #e91e63; /* Pink color */
+  }
+  90% {
+    color: #265079; /* Pink color */
+  }
+  100% {
+    color: #00bcd4; /* Purple color */
+  }
+}
