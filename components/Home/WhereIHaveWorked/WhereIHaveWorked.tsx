@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import DiscordBotDeveloper from "./Descriptions/DiscordBotDeveloper";
+import WebDeveloper from "./Descriptions/WebDeveloper";
 import YouTube from "./Descriptions/YouTube";
 export default function WhereIhaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -9,13 +9,13 @@ export default function WhereIhaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "DiscordBotDeveloper":
-        return <DiscordBotDeveloper />;
+      case "Web Developer":
+        return <WebDeveloper />;
       case "YouTube":
         return <YouTube />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("DiscordBotDeveloper");
+  const [DescriptionJob, setDescriptionJob] = React.useState("Web Developer");
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "What i had done" */}
@@ -103,10 +103,10 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
         <CompanyButton
           ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-          CompanyName="DiscordBotDeveloper"
+          CompanyName="Web Developer"
           BarPosition={-12}
           BarAvobePosition={1}
-          DescriptionJob="DiscordBotDeveloper"
+          DescriptionJob="Web Developer"
           CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
           setDescriptionJob={props.setDescriptionJob}
         />

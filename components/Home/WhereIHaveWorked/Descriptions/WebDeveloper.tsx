@@ -2,7 +2,7 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function DiscordBotDeveloper() {
+export default function WebDeveloper() {
   const tasks = [
     {
       text: "Developed and Built modern, dynamic, responsive, HTML CSS and Next.js websites.",
@@ -39,7 +39,7 @@ export default function DiscordBotDeveloper() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer And Discord Bot Developer <span className="text-AAsecondary">@ Discord</span>
+            Web Developer  <span className="text-AAsecondary">@ NoWhere</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">June 2023 - present</span>

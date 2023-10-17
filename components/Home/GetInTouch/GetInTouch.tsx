@@ -20,7 +20,7 @@ export default function GetInTouch() {
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Contact Me</span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
         Although I&apos;m always busy programming, my inbox is always open! Whether you have a question or just
-        want to say hi, I&apos;ll try my best to get back and respond to you!
+        want to say hi, I&apos;ll try my best to get back and respond to you! 
       </p>
       <div className="pt-4">
         <Link href="/contact" target={"_blank"} rel="noreferrer">

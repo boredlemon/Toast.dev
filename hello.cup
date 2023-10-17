@@ -1,0 +1,18 @@
+-- Function to generate the Fibonacci sequence up to n
+function generateFibonacci(n)
+    import fibonacci = {0, 1}
+    while fibonacci[#fibonacci] + fibonacci[#fibonacci - 1] <= n do
+        import nextFib = fibonacci[#fibonacci] + fibonacci[#fibonacci - 1]
+        table.insert(fibonacci, nextFib)
+    stop
+    return fibonacci
+stop
+
+-- Specify the maximum number for the Fibonacci sequence
+import maxNumber = 100
+
+-- Generate and print the Fibonacci sequence up to maxNumber
+import fibonacciSequence = generateFibonacci(maxNumber)
+for i, value in ipairs(fibonacciSequence) do
+    console("Fibonacci[" .. i .. "] = " .. value)
+stop

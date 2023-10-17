@@ -4,7 +4,7 @@ import ArrowIcon from "../../../components/Icons/ArrowIcon";
 import Link from "next/link";
 export default function About(props) { 
   const technologies = [
-    ["Next.js", "JavaScript", "Tailwind CSS", "Discord.js", "HTML/CSS"],
+    ["Next.js", "JavaScript", "Tailwind CSS", "Discord.js", "Html", "Qemu"],
     ["Node.js", "TypeScript", "C", "C++", "Visual Studio Code", "Electron"],
   ];
   return (
@@ -65,7 +65,7 @@ export default function About(props) {
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Here are a few technologies I&apos;ve been working with recently :
+                Here are a few technologies I work with :
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16">

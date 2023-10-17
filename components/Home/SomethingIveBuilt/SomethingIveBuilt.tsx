@@ -130,7 +130,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/cupcode.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -158,7 +158,7 @@ export default function SomethingIveBuilt() {
               >
                 <span className="pr-4 z-10">HTML</span>
                 <span className="pr-4 z-10">CSS</span>
-                <span className="pr-4 z-10">Nextjs</span>
+                <span className="pr-4 z-10">JavaScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://Coffee.github.io/CoffeeYT/" />
@@ -177,7 +177,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/NextjsWebsite.png"}>
+              <Link href={"/CoffeeZShell.png"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -185,7 +185,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/NextjsWebsite.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/CoffeeZShell.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -196,7 +196,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/NextjsWebsite.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/CoffeeZShell.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -206,30 +206,32 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/NextjsWebsite.png"}>
+                <Link href={"/CoffeeZShell.png"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    My Second Portfolio (Next.js)
+                    Coffee Z Shell
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is my second portfolio i built <span className="text-AAsecondary"> from Next.js not HTML </span> It has
-                  cool dynamic modern features with a <span className="text-AAsecondary"> dynamic, modern, japan like feeling</span> 
+                  This is a cool ZShell design for my MacOS Terminal
+                </p>
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  You can try it here: https://github.com/CoffeeBit/coffeezhs
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">Portfolio</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
-                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Zsh</span>
+                <span className="pr-4 z-10">Unix</span>
+                <span className="pr-4 z-10">Shell Scripting</span>
+                <span className="pr-4 z-10">CLI</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/CoffeeBit" />
-                <ExternalLink url={"typing"} router={router} />
+                <GithubIcon link="https://github.com/CoffeeBit/coffeezhs" />
+                {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
           </div>
@@ -243,13 +245,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/userdatapuller"}>
+              <Link href={"/cupide"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/cupcode.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -260,7 +262,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/cupcode.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -270,35 +272,41 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/userdatapuller"}>
+                <Link href={"/cupide"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    Cup Programming Language
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This project allows you to understand how easy it is to identify and track your browser based on how
-                  it appears to websites. Such as your
-                  <span className="text-AAsecondary"> location</span>,{" "}
-                  <span className="text-AAsecondary">IP Address</span>,{" "}
-                  <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                  This is a computer language that I built in C and C++! Cup is an interpreted language not compiled meaning the code is read and executed line by line by a program called an interpreter. 
+                  The Cup Programming language stands for Comprehensive Utility Programs. 
+                  The language has its own{" "}
+                  <span className="text-AAsecondary">Grammer</span>,{" "}
+                  <span className="text-AAsecondary">Syntax</span>,{" "}
+                  <span className="text-AAsecondary">Functions</span>,{" "}
+                  <span className="text-AAsecondary">Strings</span>,{" "}
+                  <span className="text-AAsecondary">Garbage Collection</span>,{" "}
+                  <span className="text-AAsecondary">Data Types</span>,{" "}
+                  <span className="text-AAsecondary">Arrays</span>,{" "}
+                  <span className="text-AAsecondary">{" "} and more!</span>
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Cookies</span>
-                <span className="pr-4 z-10">Google APi</span>
-                <span className="pr-4 z-10">Data collecting</span>
-                <span className="pr-4 z-10">IP Address</span>
-                <span className="pr-4 z-10">Location</span>
+                <span className="pr-4 z-10">Programming Language</span>
+                <span className="pr-4 z-10">Cup</span>
+                <span className="pr-4 z-10">C</span>
+                <span className="pr-4 z-10">Interpreted</span>
+                <span className="pr-4 z-10">Parser</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/CoffeeBit" />
-                <ExternalLink url={"/userdatapuller"} router={router} />
+                <ExternalLink url={"/cupide"} router={router} /> 
+                {/* download cup */}
               </div>
             </div>
           </div>
@@ -312,7 +320,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://github.com/CoffeeBit/HTMLWebsites" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/CoffeeBit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -320,11 +328,11 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
+              {/* <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
                 <span className="text-AAsecondary text-xl">In initiation...</span>
-              </div>
+              </div> */}
 
-              <Img src={"/HTMLsnakegame.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/CoffeeGraphTools.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -335,30 +343,29 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/HTMLsnakegame"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/CoffeeGraphTools"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span>
+              {/* <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span> */}
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">One of my old Projects</span>
-                <a href="https://github.com/CoffeeBit/HTMLWebsites" target={"_blank"} rel="noreferrer">
+                <span className="text-AAsecondary text-base">Github Tools</span>
+                <a href="https://github.com/CoffeeBit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    HTML snake game
+                  CoffeeGraphTools
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is the&apos; first game i coded <span className="text-AAsecondary">ever since my coding hobby</span>. I managed to learn a
-                  whole lot about <span className="text-AAsecondary">HTML and CSS</span> when i was working on the HTML snake game. 
-                  The snake game is also my first ever <span className="text-AAsecondary">website i coded</span>. It means a whole lot to me.
+                CoffeeGraphTools is a cool GitHub ReadMe utility to enhance the design of your readme!
+                CoffeeGraphTools generates a card and lets you view someones contributions on GitHub
                 </p>
               </div>
               <ul
@@ -367,12 +374,12 @@ export default function SomethingIveBuilt() {
               >
                 <span className="pr-4 z-10">HTML</span>
                 <span className="pr-4 z-10">CSS</span>
-                <span className="pr-4 z-10">First Ever Website</span>
-                <span className="pr-4 z-10">Snake Game</span>
+                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Github Markdown</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/CoffeeBit/HTMLWebsites" />
-                <a href="https://github.com/CoffeeBit/HTMLWebsites" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https://github.com/CoffeeBit/CoffeeGraphTools" />
+                <a href="https://github.com/CoffeeBit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -388,14 +395,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="/helpp" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/CoffeeBit/CoffeeOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/BotDashboard.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -406,7 +413,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/BotDashboard.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -416,34 +423,47 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="/help" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/CoffeeBit/CoffeeOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Discord Bot Dashboard 
+                    CoffeeOS
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  My Discord Bot Dashboard <span className="text-AAsecondary">is one of my hardest</span> projects i had coded so far.
-                  I had to search over Github, google, stack-overflow, and youtube for help. The most difficult part of the project was
-                  coding the Backend server. Which needed API knowledge and stuff. I manage to code it and worked!
+                  One of my hardest projects is my Operating System. The reason I made an OS is because
+                  I want to learn C, os development, how a computer works, and to get better at programming.
+                  I tried my best on this OS. It is now the best OS but It is a pretty good one if you want to learn
+                  OS development! CoffeeOS has a 64 bit kernel, bootsector and bootloader!
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">TypeScript</span>
-                <span className="pr-4 z-10">Bot Dashboard</span>
-                <span className="pr-4 z-10">MySQL</span>
+                <span className="pr-4 z-10">C</span>
+                <span className="pr-4 z-10">OSDev</span>
+                <span className="pr-4 z-10">x86_64</span>
+                <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="/help" />
+                <GithubIcon link="https://github.com/CoffeeBit/CoffeeOS" />
               </div>
             </div>
           </div>
         </div>
+
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div className="md:bg-AAtertiary rounded-md py-4 md:p-6 z-10" style={{ width: '500px', border: '1px solid #ccc', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}>
+        <p className="text-gray-300 md:text-gray-400 text-left">
+          To view more of my projects, go to{" "}
+          <Link href="/more">
+            <a style={{ color: '#11b7ed' }}>/more</a>
+          </Link>
+        </p>
+      </div>
+    </div>
+    
       </div>
     </div>
   );
