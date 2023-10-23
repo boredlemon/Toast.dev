@@ -1,0 +1,56 @@
+<div style="color: green;">
+<pre>
+       /^\/^\
+     _|__|  O|
+/     /~     \_/ \
+ \____|__________/  \
+    \_______      \
+            `\     \                 \
+              |     |                  \
+             /      /                    \
+            /     /                       \\
+          /      /                         \ \
+         /     /                            \  \
+       /     /             _----_            \   \
+      /     /           _-~      ~-_         |   |
+     (      (        _-~    _--_    ~-_     _/   |
+      \      ~-____-~    _-~    ~-_    ~-_-~    /
+        ~-_           _-~          ~-_       _-~
+           ~--______-~                ~-___-~
+</pre>
+
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+Programmer | デザイナー
+
+Coffee (Dolphin#6086)
+game development & web development
+
+Design tools:
+Visual Studio code
+Davinci Resolve
+Docker
+
+github.com/Coffee
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+OpenGL
+React
+Next.js
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Arial
+Gotham
+Hiragino Kaku Gothic

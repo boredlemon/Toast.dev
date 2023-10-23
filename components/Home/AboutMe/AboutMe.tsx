@@ -30,7 +30,7 @@ export default function About(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-              Hey, My name is Coffee! You can also call me Dolphin too. I love to code during my free time. 
+              Hey, My name is Viper! You can also call me Dolphin too. I love to code during my free time. 
               I mostly work on building websites and learning more about programming. 
               Ever since I got my first computer I had been thinking to be a software engineer for so long. 
               This came true when I wrote my first program in JavaScript which was my Discord Bot. 
@@ -106,7 +106,7 @@ export default function About(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/Coffee.png"}
+                src={"/Viper.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
@@ -117,7 +117,7 @@ export default function About(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/Coffee.png"}
+                src={"/Viper.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />

@@ -266,7 +266,7 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <Footer className="absolute bottom-0" link="https://github.com/CoffeeBit" />
+          <Footer className="absolute bottom-0" link="https://github.com/Vipergigabyte" />
         </>
       )}
 
@@ -280,7 +280,7 @@ export default function Home() {
             statistics={statistics}
             timeToType={timeToType}
           />
-          <Footer className="pt-16" link="https://github.com/CoffeeBit" />
+          <Footer className="pt-16" link="https://github.com/Vipergigabyte" />
         </>
       )}
     </div>

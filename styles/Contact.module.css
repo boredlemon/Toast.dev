@@ -1,0 +1,19 @@
+/* Gradient background */
+.gradientBackground {
+  background: linear-gradient(to bottom, #000046, #1CB5E0);
+}
+
+/* Other styles for your component */
+.contactContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+/* Background color for the form */
+.formBackground {
+  background-color: #08353d; /* Adjust to the desired background color */
+}
