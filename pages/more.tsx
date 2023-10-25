@@ -35,7 +35,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://https://github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
+              <a href="https:////github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -63,7 +63,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://https://github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
+                <a href="https:////github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     CoffeeOS
                   </span>
@@ -87,7 +87,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://https://github.com/Coffeebit/CoffeeOS" />
+                <GithubIcon link="https:////github.com/Coffeebit/CoffeeOS" />
               </div>
             </div>
           </div>

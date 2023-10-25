@@ -14,7 +14,7 @@ const ClickableIcon = (props) => {
 };
 
 const IconsData = [
-  { href: "https://https://github.com/Coffeebit", Icon: GithubIcon },
+  { href: "https:////github.com/Coffeebit", Icon: GithubIcon },
   { href: "https://www.youtube.com/channel/UCGb0e9ewlGy6wCKFD6KZ2Eg", Icon: YoutubeIcon },
 ];
 

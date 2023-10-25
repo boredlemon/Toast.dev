@@ -140,7 +140,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Another Project</span>
-                <a href="https://https://github.com/Coffeebit/CoffeeYT" target="_blank" rel="noopener noreferrer">
+                <a href="https:////github.com/Coffeebit/CoffeeYT" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     YouTube Portfolio Test
                   </span>
@@ -217,7 +217,7 @@ export default function SomethingIveBuilt() {
                   This is a cool ZShell design for my MacOS Terminal
                 </p>
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  You can try it here: https://https://github.com/Coffeebit/Coffeezhs
+                  You can try it here: https:////github.com/Coffeebit/Coffeezhs
                 </p>
               </div>
               <ul
@@ -230,7 +230,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">CLI</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://https://github.com/Coffeebit/Coffeezhs" />
+                <GithubIcon link="https:////github.com/Coffeebit/Coffeezhs" />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Parser</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://https://github.com/Coffeebit" />
+                <GithubIcon link="https:////github.com/Coffeebit" />
                 <ExternalLink url={"/cupide"} router={router} /> 
                 {/* download cup */}
               </div>
@@ -320,7 +320,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://https://github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+              <a href="https:////github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -356,7 +356,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Github Tools</span>
-                <a href="https://https://github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+                <a href="https:////github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                   CoffeeGraphTools
                   </span>
@@ -378,8 +378,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Github Markdown</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://https://github.com/Coffeebit/CoffeeGraphTools" />
-                <a href="https://https://github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https:////github.com/Coffeebit/CoffeeGraphTools" />
+                <a href="https:////github.com/Coffeebit/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -395,7 +395,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://https://github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
+              <a href="https:////github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -423,7 +423,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://https://github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
+                <a href="https:////github.com/Coffeebit/CoffeeOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     CoffeeOS
                   </span>
@@ -447,7 +447,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://https://github.com/Coffeebit/CoffeeOS" />
+                <GithubIcon link="https:////github.com/Coffeebit/CoffeeOS" />
               </div>
             </div>
           </div>
