@@ -14,7 +14,7 @@ const ClickableIcon = (props) => {
 };
 
 const IconsData = [
-  { href: "https://github.com/Vipergigabyte", Icon: GithubIcon },
+  { href: "https://https://github.com/Coffeebit", Icon: GithubIcon },
   { href: "https://www.youtube.com/channel/UCGb0e9ewlGy6wCKFD6KZ2Eg", Icon: YoutubeIcon },
 ];
 
@@ -37,7 +37,7 @@ export default function Footer(props: { githubUrl: string; hideSocialsInDesktop:
           onMouseLeave={() => setHovered(false)} // Set hovered to false on mouse leave
         >
           <span className={`sm:text-sm text-xs ${hovered ? styles.colorChange : ""}text-blue-400`}>
-            Made by Viper🐍 (Dolphin#6086)
+            Made by Coffee☕🐍 (Dolphin#6086)
           </span>
 
           <span className={`text-xs flex flex-row items-center space-x-2 ${hovered ? styles.colorChange : ""}`}>
@@ -45,9 +45,9 @@ export default function Footer(props: { githubUrl: string; hideSocialsInDesktop:
             <span className="">My Github Page</span>
           </span>
 
-          <a href="/humans.txt">
-  <span>humans.txt</span>
-</a>
+          {/* <a href="/humans.txt" target="_blank" rel="noreferrer">
+        humans.txt
+      </a> */}
 
         </div>
       </a>

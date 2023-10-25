@@ -7,6 +7,7 @@ import YoutubeIcon from "../../Icons/YoutubeIcon";
 import DiscordIcon from "../../Icons/DiscordIcon";
 import RedditIcon from "../../Icons/RedditIcon";
 import DiscordBotIcon from "../../Icons/DiscordBotIcon";
+import Link from "next/link";
 
 const IconClickableWithAnimation = props => {
   return (
@@ -35,7 +36,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/Vipergigabyte"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://https://github.com/Coffeebit"} />
             {/* Discord Icon */}
             <IconClickableWithAnimation Icon={DiscordIcon} href={"https://discord.gg/K65AYbuDeF"} />
             {/* RedditIcon Icon */}
@@ -67,11 +68,12 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:contactViper1000@gmail.com" target={"_blank"} rel="noreferrer">
+            {/* <a href="mailto:contactCoffee1000@gmail.com" target={"_blank"} rel="noreferrer"> */}
+            <Link href="/contact" target={"_blank"} rel="noreferrer"> 
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                Viper<span className="text-AAsecondary">@</span>error<span className="text-AAsecondary">.</span>com
+                Contactdolphin<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
-            </a>
+            </Link>
           </motion.div>
 
           <div className="h-24 w-0.5 bg-gray-400"></div>

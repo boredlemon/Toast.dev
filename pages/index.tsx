@@ -56,17 +56,17 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Viper - Programmer☕",
+    title: "Coffee - Programmer☕",
     description: `I do coding as my hobby! Click on my website to learn more ;)`,
-    image: "/Viper.png", 
+    image: "/Coffee.png", 
     color: "#233554", 
     type: "website",
     discordColor: "#233554", // Custom color tag for Discord
-    author: "Viper",
+    author: "Coffee",
     keywords: "software development, coding, web development",
-    siteName: "Viper.com",
-    twitterUsername: "@Viper4000", // Your Twitter username
-    canonicalURL: "https://github.com/Vipergigabyte",
+    siteName: "Coffee.com",
+    twitterUsername: "@Coffee4000", // Your Twitter username
+    canonicalURL: "https://https://github.com/Coffeebit",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -79,15 +79,15 @@ export default function Home() {
         <meta name="robots" content="follow, index" />
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://github.com/Vipergigabyte`} />
-        <link rel="canonical" href={`https://github.com/Vipergigabyte`} />
+        <meta property="og:url" content={`https://https://github.com/Coffeebit`} />
+        <link rel="canonical" href={`https://https://github.com/Coffeebit`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Viper" />
+        <meta property="og:site_name" content="Coffee" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Viper4000" />
+        <meta name="twitter:site" content="@Coffee4000" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -114,7 +114,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https://github.com/Vipergigabyte"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://https://github.com/Coffeebit"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}

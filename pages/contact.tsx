@@ -51,10 +51,10 @@ export default function Contact() {
     //   style={{ background: 'linear-gradient(to bottom, #000046, #1CB5E0)' }} 
     // > */}
       <Head>
-        <title>Email Viper</title>
+        <title>Email Coffee</title>
       </Head>
       <div className="bg-blue shadow-md rounded px-8 pt-6 pb-8 w-full max-w-md">
-        <h1 className="text-3xl font-bold mb-4 text-center text-gray-800">Email Viper!</h1>
+        <h1 className="text-3xl font-bold mb-4 text-center text-gray-800">Email Coffee!</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
@@ -115,7 +115,7 @@ export default function Contact() {
           </Link>
         </div>
         <div className="mt-4 text-center">
-          <a>Email form made by Viper aka Dolphin#6086! Hope you enjoy!</a>
+          <a>Email form made by Coffee aka Dolphin#6086! Hope you enjoy!</a>
         </div>
       </div>
       {showMessageModal && (

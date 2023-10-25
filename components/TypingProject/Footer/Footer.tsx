@@ -22,7 +22,7 @@ export default function Fotter(props:{link:string,className:string}) {
         {/* // ? Reach me at */}
         <div className="flex flex-row space-x-8">
           <ClickableIcon
-            href={"https://github.com/Vipergigabyte"}
+            href={"https://https://github.com/Coffeebit"}
             Icon={GithubIcon}
             />
           <ClickableIcon
@@ -36,7 +36,7 @@ export default function Fotter(props:{link:string,className:string}) {
     text-sm  space-y-2  "
           >
             <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-              Designed & Built by Viper!
+              Designed & Built by Coffee!
             </span>
 
             <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
