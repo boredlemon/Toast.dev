@@ -36,8 +36,8 @@ export default function About(props) {
               This came true when I wrote my first program in JavaScript which was my Discord Bot. 
               I learned a lot from the project like SQL, databases, JavaScript, Version Control, and much more. 
               This was just the begining of my journey. As I got better at programming, I started to realize, &quot;What if I could program my own programming language that I can use myself?&quot;
-              That dream came true... I built my programming language in C and named it cup. Cup is an interpreted language and not compiled. I am willing to make it fully self hosted meaning
-              that I will recreate the whole language in Cup!
+              That dream came true... I built my programming language in C and named it Viper. Viper is an interpreted language and not compiled. I am willing to make it fully self hosted meaning
+              that I will recreate the whole language in Viper!
               </span>
             </div>
             <div className="font-Header ">
