@@ -110,8 +110,8 @@ export default function Contact() {
           </div>
         </form>
         <div className="mt-4 text-center">
-          <Link href="/">
-            <a className="text-blue-500 hover:underline">Return Home</a>
+          <Link href="/" className="text-blue-500 hover:underline">
+            Return Home
           </Link>
         </div>
         <div className="mt-4 text-center">

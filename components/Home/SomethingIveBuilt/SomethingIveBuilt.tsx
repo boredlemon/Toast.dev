@@ -177,7 +177,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/CoffeeZShell.png"}>
+              <Link href={"/CoffeeZShell.png"} legacyBehavior>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -206,7 +206,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/CoffeeZShell.png"}>
+                <Link href={"/CoffeeZShell.png"} legacyBehavior>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Coffee Z Shell
                   </span>
@@ -245,7 +245,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/cupide"}>
+              <Link href={"/cupide"} legacyBehavior>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -272,7 +272,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/cupide"}>
+                <Link href={"/cupide"} legacyBehavior>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Viper Programming Language
                   </span>
@@ -457,8 +457,8 @@ export default function SomethingIveBuilt() {
       <div className="md:bg-AAtertiary rounded-md py-4 md:p-6 z-10" style={{ width: '500px', border: '1px solid #ccc', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}>
         <p className="text-gray-300 md:text-gray-400 text-left">
           To view more of my projects, go to{" "}
-          <Link href="/more">
-            <a style={{ color: '#11b7ed' }}>/more</a>
+          <Link href="/more" style={{ color: '#11b7ed' }}>
+            /more
           </Link>
         </p>
       </div>

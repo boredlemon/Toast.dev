@@ -2,19 +2,17 @@ import React from "react";
 import Link from "next/link";
 
 export default function Logo(props: { finishedLoading: boolean }) {
-  return (
-    <>
-      <Link href="/">
-        <a>
-          <div className="relative h-12 w-10">
-            <span className="absolute h-full w-full flex justify-center items-center text-lg font-Header text-AAsecondary">
-              ☕
-            </span>
-          </div>
-        </a>
-      </Link>
-    </>
-  );
+  return <>
+    <Link href="/">
+
+      <div className="relative h-12 w-10">
+        <span className="absolute h-full w-full flex justify-center items-center text-lg font-Header text-AAsecondary">
+          ☕
+        </span>
+      </div>
+
+    </Link>
+  </>;
 }
 
 

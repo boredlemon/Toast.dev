@@ -95,8 +95,8 @@ export default function SomethingIveBuilt() {
 
         <div className="md:bg-AAtertiary rounded-md py-4 md:p-6 z-10" style={{ width: '200px' }}>
           <p className="text-gray-300 md:text-gray-400 text-left">
-            <Link href="/" passHref>
-              <a style={{ color: '#11b7ed' }}>Back to main page</a>
+            <Link href="/" passHref style={{ color: '#11b7ed' }}>
+              Back to main page
             </Link>
           </p>
         </div>
