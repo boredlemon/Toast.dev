@@ -56,8 +56,9 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Brick - Programmer🧱",
-    description: `I do coding as my hobby! Click on my website to learn more ;)`,
+    title: "Brick (Plankton Dingleballs900)",
+    description: `Hello my name is plankton dinglenuts🤓 or brick`,
+    pronouns: "psycho/L+ratio/rock/brick/plankton/goofy/helicopter",
     image: "/Brick.png", 
     color: "#233554", 
     type: "website",
@@ -79,6 +80,7 @@ export default function Home() {
         <meta name="robots" content="follow, index" />
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
+        <meta content={meta.pronouns} name="pronouns" />
         <meta property="og:url" content={`https:////github.com/Plainbrick`} />
         <link rel="canonical" href={`https:////github.com/Plainbrick`} />
         <meta property="og:type" content={meta.type} />
