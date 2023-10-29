@@ -27,7 +27,7 @@ _______________________________________________________________________________
 
 Programmer | デザイナー
 
-Coffee (Dolphin#6086)
+Brick (Dolphin#6086)
 game development & web development
 
 Design tools:
@@ -35,7 +35,7 @@ Visual Studio code
 Davinci Resolve
 Docker
 
-github.com/Coffee
+github.com/Brick
 
 _______________________________________________________________________________
 

@@ -140,7 +140,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Another Project</span>
-                <a href="https:////github.com/bytecoffeedev/CoffeeYT" target="_blank" rel="noopener noreferrer">
+                <a href="https:////github.com/Plainbrick/BrickYT" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     YouTube Portfolio Test
                   </span>
@@ -148,8 +148,8 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is one of my first websites called Coffee&apos;s Portfolio! I coded the website from HTML and CSS! Click on the image to see my website recoded in Next.js, React, TypeScript. Might not look the same but its still also the same. {" "}
-                  <span className="text-AAsecondary"> My first website - https://Coffee.github.io/CoffeeYT/</span>
+                  This is one of my first websites called Brick&apos;s Portfolio! I coded the website from HTML and CSS! Click on the image to see my website recoded in Next.js, React, TypeScript. Might not look the same but its still also the same. {" "}
+                  <span className="text-AAsecondary"> My first website - https://Brick.github.io/BrickYT/</span>
                 </p>
               </div>
               <ul
@@ -161,8 +161,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">JavaScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://Coffee.github.io/CoffeeYT/" />
-                <a href="https://Coffee.github.io/CoffeeYT/" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https://Brick.github.io/BrickYT/" />
+                <a href="https://Brick.github.io/BrickYT/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -177,7 +177,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/CoffeeZShell.png"} legacyBehavior>
+              <Link href={"/BrickZShell.png"} legacyBehavior>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -185,7 +185,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/CoffeeZShell.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/BrickZShell.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -196,7 +196,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CoffeeZShell.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/BrickZShell.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -206,9 +206,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/CoffeeZShell.png"} legacyBehavior>
+                <Link href={"/BrickZShell.png"} legacyBehavior>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Coffee Z Shell
+                    Brick Z Shell
                   </span>
                 </Link>
               </div>
@@ -217,7 +217,7 @@ export default function SomethingIveBuilt() {
                   This is a cool ZShell design for my MacOS Terminal
                 </p>
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  You can try it here: https:////github.com/bytecoffeedev/Coffeezhs
+                  You can try it here: https:////github.com/Plainbrick/Brickzhs
                 </p>
               </div>
               <ul
@@ -230,7 +230,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">CLI</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https:////github.com/bytecoffeedev/Coffeezhs" />
+                <GithubIcon link="https:////github.com/Plainbrick/Brickzhs" />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Parser</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https:////github.com/bytecoffeedev" />
+                <GithubIcon link="https:////github.com/Plainbrick" />
                 <ExternalLink url={"/cupide"} router={router} /> 
                 {/* download Viper */}
               </div>
@@ -320,7 +320,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https:////github.com/bytecoffeedev/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+              <a href="https:////github.com/Plainbrick/BrickGraphTools" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -332,7 +332,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-xl">In initiation...</span>
               </div> */}
 
-              <Img src={"/CoffeeGraphTools.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/BrickGraphTools.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -343,7 +343,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CoffeeGraphTools"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/BrickGraphTools"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
@@ -356,16 +356,16 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Github Tools</span>
-                <a href="https:////github.com/bytecoffeedev/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+                <a href="https:////github.com/Plainbrick/BrickGraphTools" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                  CoffeeGraphTools
+                  BrickGraphTools
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                CoffeeGraphTools is a cool GitHub ReadMe utility to enhance the design of your readme!
-                CoffeeGraphTools generates a card and lets you view someones contributions on GitHub
+                BrickGraphTools is a cool GitHub ReadMe utility to enhance the design of your readme!
+                BrickGraphTools generates a card and lets you view someones contributions on GitHub
                 </p>
               </div>
               <ul
@@ -378,8 +378,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Github Markdown</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https:////github.com/bytecoffeedev/CoffeeGraphTools" />
-                <a href="https:////github.com/bytecoffeedev/CoffeeGraphTools" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https:////github.com/Plainbrick/BrickGraphTools" />
+                <a href="https:////github.com/Plainbrick/BrickGraphTools" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -395,14 +395,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https:////github.com/bytecoffeedev/CoffeeOS" target={"_blank"} rel="noreferrer">
+              <a href="https:////github.com/Plainbrick/BrickOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/BrickOS.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -413,7 +413,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/BrickOS.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -423,9 +423,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https:////github.com/bytecoffeedev/CoffeeOS" target={"_blank"} rel="noreferrer">
+                <a href="https:////github.com/Plainbrick/BrickOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    CoffeeOS
+                    BrickOS
                   </span>
                 </a>
               </div>
@@ -434,7 +434,7 @@ export default function SomethingIveBuilt() {
                   One of my hardest projects is my Operating System. The reason I made an OS is because
                   I want to learn C, os development, how a computer works, and to get better at programming.
                   I tried my best on this OS. It is now the best OS but It is a pretty good one if you want to learn
-                  OS development! CoffeeOS has a 64 bit kernel, bootsector and bootloader!
+                  OS development! BrickOS has a 64 bit kernel, bootsector and bootloader!
                 </p>
               </div>
               <ul
@@ -447,7 +447,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https:////github.com/bytecoffeedev/CoffeeOS" />
+                <GithubIcon link="https:////github.com/Plainbrick/BrickOS" />
               </div>
             </div>
           </div>

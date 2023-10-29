@@ -30,7 +30,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Coffee ☕
+        Brick 🧱🤓
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -41,7 +41,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I code Discord bots, dashboards, websites, and games!
+        I build websites, discord bot, bye...
       </motion.h2>
 
       <motion.h3

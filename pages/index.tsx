@@ -56,17 +56,17 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Coffee - Programmer☕",
+    title: "Brick - Programmer🧱",
     description: `I do coding as my hobby! Click on my website to learn more ;)`,
-    image: "/Coffee.png", 
+    image: "/Brick.png", 
     color: "#233554", 
     type: "website",
     discordColor: "#233554", // Custom color tag for Discord
-    author: "Coffee",
+    author: "Brick",
     keywords: "software development, coding, web development",
-    siteName: "Coffee.com",
-    twitterUsername: "@Coffee4000", // Your Twitter username
-    canonicalURL: "https:////github.com/bytecoffeedev",
+    siteName: "Brick.com",
+    twitterUsername: "@Brick4000", // Your Twitter username
+    canonicalURL: "https:////github.com/Plainbrick",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -79,15 +79,15 @@ export default function Home() {
         <meta name="robots" content="follow, index" />
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https:////github.com/bytecoffeedev`} />
-        <link rel="canonical" href={`https:////github.com/bytecoffeedev`} />
+        <meta property="og:url" content={`https:////github.com/Plainbrick`} />
+        <link rel="canonical" href={`https:////github.com/Plainbrick`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Coffee" />
+        <meta property="og:site_name" content="Brick" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Coffee4000" />
+        <meta name="twitter:site" content="@Brick4000" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -114,7 +114,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https:////github.com/bytecoffeedev"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https:////github.com/Plainbrick"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}
