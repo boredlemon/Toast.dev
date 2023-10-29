@@ -1,0 +1,4 @@
+Roses are red,
+My code's a disaster,
+Organizing my python code,
+Git push --force origin master
