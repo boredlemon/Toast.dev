@@ -1,0 +1,9 @@
+Add an FAQ page
+Add a blog page (MDX and Typescript)
+Add a glossary
+Add a search page to search over my portfolio
+Clean out the code
+Organize my code
+Update dependencies
+Add more to the meta tags
+Add more projects
