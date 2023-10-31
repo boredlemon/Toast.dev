@@ -67,7 +67,7 @@ export default function Home() {
     keywords: "software development, coding, web development",
     siteName: "Toast.com",
     twitterUsername: "@Toast4000", // Your Twitter username
-    canonicalURL: "https:////github.com/Plaintoast",
+    canonicalURL: "https:////github.com/toastexe",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -81,8 +81,8 @@ export default function Home() {
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
         <meta content={meta.pronouns} name="pronouns" />
-        <meta property="og:url" content={`https:////github.com/Plaintoast`} />
-        <link rel="canonical" href={`https:////github.com/Plaintoast`} />
+        <meta property="og:url" content={`https:////github.com/toastexe`} />
+        <link rel="canonical" href={`https:////github.com/toastexe`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Toast" />
         <meta property="og:description" content={meta.description} />
@@ -116,7 +116,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https:////github.com/Plaintoast"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https:////github.com/toastexe"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}
