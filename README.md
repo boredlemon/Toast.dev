@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://avatars.githubusercontent.com/u/114450467?v=4" width="100" />
 </div>
 <h1 align="center">
-  Brick.com
+  Toast.com
 </h1>
 <p align="center">
   Built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" target="_blank">Vercel</a>
@@ -65,14 +65,14 @@ Since i integrated some of my project into my website i'll i mention most of tec
 
 ### How To Use This
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https:////github.com/Plainbrick/BrickPortfolio.git). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https:////github.com/Plaintoast/ToastPortfolio.git). Thanks!
 
 ## 🛠 Installation & Set Up
 
 1. Clone the repo CLI
 
    ```sh
-   git clone https:////github.com/Plainbrick/BrickPortfolio.git
+   git clone https:////github.com/Plaintoast/ToastPortfolio.git
    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
@@ -197,7 +197,7 @@ the following endpoint will return a json object contains "quote" and "author", 
 
 MIT License
 
-Copyright (c) [2023] [Brick]
+Copyright (c) [2023] [Toast]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -14,7 +14,7 @@ const ClickableIcon = (props) => {
 };
 
 const IconsData = [
-  { href: "https:////github.com/Plainbrick", Icon: GithubIcon },
+  { href: "https:////github.com/Plaintoast", Icon: GithubIcon },
   { href: "https://www.youtube.com/channel/UCGb0e9ewlGy6wCKFD6KZ2Eg", Icon: YoutubeIcon },
 ];
 
@@ -37,7 +37,7 @@ export default function Footer(props: { githubUrl: string; hideSocialsInDesktop:
           onMouseLeave={() => setHovered(false)} // Set hovered to false on mouse leave
         >
           <span className={`sm:text-sm text-xs ${hovered ? styles.colorChange : ""}text-blue-400`}>
-            Made by Brick🧱🐍 (Dolphin#6086)
+            Made by Toast (Dolphin#6086)
           </span>
 
           <span className={`text-xs flex flex-row items-center space-x-2 ${hovered ? styles.colorChange : ""}`}>

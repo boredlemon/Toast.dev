@@ -1,4 +1,4 @@
 Roses are red,
 My code's a disaster,
-Organizing my python code,
+Fixing errors all day, 
 Git push --force origin master

@@ -35,7 +35,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
       <div className="flex flex-col space-y-8 justify-center items-center">
         <div className="flex flex-col justify-center items-center space-y-5">
           {/* Github Icon */}
-          <IconClickableWithAnimation Icon={GithubIcon} href={"https:////github.com/Plainbrick"} />
+          <IconClickableWithAnimation Icon={GithubIcon} href={"https:////github.com/Plaintoast"} />
           {/* Discord Icon */}
           <IconClickableWithAnimation Icon={DiscordIcon} href={"https://discord.gg/K65AYbuDeF"} />
           {/* RedditIcon Icon */}
@@ -67,7 +67,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
           }}
           className=""
         >
-          {/* <a href="mailto:contactBrick1000@gmail.com" target={"_blank"} rel="noreferrer"> */}
+          {/* <a href="mailto:contactToast1000@gmail.com" target={"_blank"} rel="noreferrer"> */}
           <Link href="/contact" target={"_blank"} rel="noreferrer" legacyBehavior> 
             <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
               Contactdolphin<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com

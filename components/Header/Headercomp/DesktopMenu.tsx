@@ -22,7 +22,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className=" text-AAsecondary"
         >
         <ReactScrollLink to="BackToTop" spy={true} smooth={true} offset={-100} duration={200}>
-         <span className="text-white hover:cursor-pointer hover:text-AAsecondary duration-300">Brick.dev</span>
+         <span className="text-white hover:cursor-pointer hover:text-AAsecondary duration-300">Toast.dev</span>
         </ReactScrollLink>
       </motion.div>
       <motion.div

@@ -56,18 +56,18 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Brick (Plankton Dingleballs900)",
-    description: `Hello my name is plankton dinglenuts🤓 or brick`,
-    pronouns: "psycho/L+ratio/rock/brick/plankton/goofy/helicopter",
-    image: "/Brick.png", 
+    title: "Toast - Developer",
+    description: `Hey! I am Toast🍞`,
+    pronouns: "he/him",
+    image: "/toast.png", 
     color: "#233554", 
     type: "website",
     discordColor: "#233554", // Custom color tag for Discord
-    author: "Brick",
+    author: "Toast",
     keywords: "software development, coding, web development",
-    siteName: "Brick.com",
-    twitterUsername: "@Brick4000", // Your Twitter username
-    canonicalURL: "https:////github.com/Plainbrick",
+    siteName: "Toast.com",
+    twitterUsername: "@Toast4000", // Your Twitter username
+    canonicalURL: "https:////github.com/Plaintoast",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -81,15 +81,15 @@ export default function Home() {
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
         <meta content={meta.pronouns} name="pronouns" />
-        <meta property="og:url" content={`https:////github.com/Plainbrick`} />
-        <link rel="canonical" href={`https:////github.com/Plainbrick`} />
+        <meta property="og:url" content={`https:////github.com/Plaintoast`} />
+        <link rel="canonical" href={`https:////github.com/Plaintoast`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Brick" />
+        <meta property="og:site_name" content="Toast" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Brick4000" />
+        <meta name="twitter:site" content="@Toast4000" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -116,7 +116,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https:////github.com/Plainbrick"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https:////github.com/Plaintoast"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}
