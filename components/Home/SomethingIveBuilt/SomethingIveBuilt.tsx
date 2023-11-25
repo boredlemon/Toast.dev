@@ -140,7 +140,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Another Project</span>
-                <a href="https:////github.com/toastexe/ToastYT" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/toastcanyon/ToastYT" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     YouTube Portfolio Test
                   </span>
@@ -177,7 +177,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/ToastZShell.png"} legacyBehavior>
+              <Link href={"/crunchcord.png"} legacyBehavior>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -185,7 +185,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/ToastZShell.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/crunchcord.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -196,7 +196,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ToastZShell.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/crunchcord.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -206,31 +206,33 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/ToastZShell.png"} legacyBehavior>
+                <Link href={"/crunchcord.png"} legacyBehavior>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Toast Z Shell
+                    CrunchCord
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is a cool ZShell design for my MacOS Terminal
+                  This is a fullstack Discord Clone built in Next.js, react, Socket.io, Prisma, and PostgreSQL!
+                  This is one of my first chat apps I built so far.
                 </p>
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  You can try it here: https:////github.com/toastexe/Toastzhs
-                </p>
+                {/* <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  TRY IT HERE! https://crunchcord.vercel.app/ (my be broken)
+                </p> */}
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Zsh</span>
-                <span className="pr-4 z-10">Unix</span>
-                <span className="pr-4 z-10">Shell Scripting</span>
-                <span className="pr-4 z-10">CLI</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">Socket.io</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https:////github.com/toastexe/Toastzhs" />
+                <GithubIcon link="https://github.com/toastcanyon/CrunchCord" />
+                  <ExternalLink url={"https://crunchcord.vercel.app"} router={router} />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
@@ -245,13 +247,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/cupide"} legacyBehavior>
+              <Link href={"/hydrogen_snipet.png"} legacyBehavior>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/cupcode.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/hydro_snipet.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -262,7 +264,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/cupcode.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/hydro_snipet.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -272,16 +274,16 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/cupide"} legacyBehavior>
+                <Link href={"/hydro_snipet.png"} legacyBehavior>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Viper Programming Language
+                    Hydro Programming Language
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is a computer language that I built in C and C++! Viper is an interpreted language not compiled meaning the code is read and executed line by line by a program called an interpreter. 
-                  The viper Programming language stands for Comprehensive Utility Programs. 
+                  This is a computer language that I built in C and C++! Hydro is an interpreted language not compiled meaning the code is read and executed line by line by a program called an interpreter. 
+                  The Hydro Programming language stands for Comprehensive Utility Programs. 
                   The language has its own{" "}
                   <span className="text-AAsecondary">Grammer</span>,{" "}
                   <span className="text-AAsecondary">Syntax</span>,{" "}
@@ -298,15 +300,15 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">Programming Language</span>
-                <span className="pr-4 z-10">Viper</span>
+                <span className="pr-4 z-10">Hydro</span>
                 <span className="pr-4 z-10">C</span>
                 <span className="pr-4 z-10">Interpreted</span>
                 <span className="pr-4 z-10">Parser</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https:////github.com/toastexe" />
+                <GithubIcon link="https://github.com/toastcanyon" />
                 <ExternalLink url={"/cupide"} router={router} /> 
-                {/* download Viper */}
+                {/* download Hydro */}
               </div>
             </div>
           </div>
@@ -320,7 +322,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https:////github.com/toastexe/ToastGraphTools" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -332,7 +334,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-xl">In initiation...</span>
               </div> */}
 
-              <Img src={"/ToastGraphTools.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/graphtool.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -343,7 +345,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ToastGraphTools"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/graphtool.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
@@ -356,16 +358,16 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Github Tools</span>
-                <a href="https:////github.com/toastexe/ToastGraphTools" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                  ToastGraphTools
+                  git-toaster-graphing
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                ToastGraphTools is a cool GitHub ReadMe utility to enhance the design of your readme!
-                ToastGraphTools generates a card and lets you view someones contributions on GitHub
+                git-toaster-graphing is a cool GitHub ReadMe utility to enhance the design of your readme!
+                git-toaster-graphing generates a card and lets you view someones contributions on GitHub
                 </p>
               </div>
               <ul
@@ -378,8 +380,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Github Markdown</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https:////github.com/toastexe/ToastGraphTools" />
-                <a href="https:////github.com/toastexe/ToastGraphTools" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https://github.com/toastcanyon/git-toaster-graphing" />
+                <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -395,14 +397,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https:////github.com/toastexe/ToastOS" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/toastcanyon/CoffeeOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/ToastOS.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -413,7 +415,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ToastOS.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/CoffeeOS.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -423,9 +425,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https:////github.com/toastexe/ToastOS" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/toastcanyon/CoffeeOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    ToastOS
+                    CoffeeOS
                   </span>
                 </a>
               </div>
@@ -434,7 +436,7 @@ export default function SomethingIveBuilt() {
                   One of my hardest projects is my Operating System. The reason I made an OS is because
                   I want to learn C, os development, how a computer works, and to get better at programming.
                   I tried my best on this OS. It is now the best OS but It is a pretty good one if you want to learn
-                  OS development! ToastOS has a 64 bit kernel, bootsector and bootloader!
+                  OS development! CoffeeOS has a 64 bit kernel, bootsector and bootloader!
                 </p>
               </div>
               <ul
@@ -447,7 +449,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https:////github.com/toastexe/ToastOS" />
+                <GithubIcon link="https://github.com/toastcanyon/CoffeeOS" />
               </div>
             </div>
           </div>

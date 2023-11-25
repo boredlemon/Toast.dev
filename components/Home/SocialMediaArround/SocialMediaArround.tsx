@@ -35,7 +35,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
       <div className="flex flex-col space-y-8 justify-center items-center">
         <div className="flex flex-col justify-center items-center space-y-5">
           {/* Github Icon */}
-          <IconClickableWithAnimation Icon={GithubIcon} href={"https:////github.com/toastexe"} />
+          <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/toastcanyon"} />
           {/* Discord Icon */}
           <IconClickableWithAnimation Icon={DiscordIcon} href={"https://discord.gg/K65AYbuDeF"} />
           {/* RedditIcon Icon */}

@@ -30,14 +30,14 @@ export default function About(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-              Hey, My name is Toast! You can also call me Dolphin. I love to code during my free time. 
+              Hey, My name is Toast! You can also call me Dolphin/ToastCanyon. I love to code during my free time. 
               I mostly work on building websites and learning more about programming. 
               Ever since I got my first computer I had been thinking to be a software engineer for so long. 
               This came true when I wrote my first program in JavaScript which was my Discord Bot. 
               I learned a lot from the project like SQL, databases, JavaScript, Version Control, and much more. 
               This was just the begining of my journey. As I got better at programming, I started to realize, &quot;What if I could program my own programming language that I can use myself?&quot;
-              That dream came true... I built my programming language in C and named it Viper. Viper is an interpreted language and not compiled. I am willing to make it fully self hosted meaning
-              that I will recreate the whole language in Viper!
+              That dream came true... I built my programming language in C and named it Hydro. Hydro is an interpreted language and not compiled. I am willing to make it fully self hosted meaning
+              that I will recreate the whole language in Hydro!
               </span>
             </div>
             <div className="font-Header ">

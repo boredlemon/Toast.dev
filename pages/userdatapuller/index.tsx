@@ -302,7 +302,7 @@ export default function Page() {
         {/* // ? About */}
         <About />
       </div>
-      <Footer githubUrl="https:////github.com/toastexe" hideSocialsInDesktop={false} />
+      <Footer githubUrl="https://github.com/toastcanyon" hideSocialsInDesktop={false} />
     </>
   );
 }

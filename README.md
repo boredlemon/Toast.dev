@@ -65,14 +65,14 @@ Since i integrated some of my project into my website i'll i mention most of tec
 
 ### How To Use This
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https:////github.com/toastexe/ToastPortfolio.git). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [MY GITHUB](https://github.com/toastcanyon/ToastPortfolio.git). Thanks!
 
 ## 🛠 Installation & Set Up
 
 1. Clone the repo CLI
 
    ```sh
-   git clone https:////github.com/toastexe/ToastPortfolio.git
+   git clone https://github.com/toastcanyon/ToastPortfolio.git
    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
