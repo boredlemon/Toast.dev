@@ -61,9 +61,9 @@ export default function Home() {
     pronouns: "he/him",
     image: "/LogicalToast.png", 
     // color: "#233554", 
-    color: "#7d0c10", 
+    color: "#21a621", 
     type: "website",
-    discordColor: "#7d0c10", // Custom color tag for Discord
+    discordColor: "#21a621", // Custom color tag for Discord
     author: "Toast",
     keywords: "software development, coding, web development",
     siteName: "Toast.com",
