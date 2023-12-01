@@ -57,9 +57,9 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Toast - Developer",
-    description: `Hey! I am Toast🍞`,
+    description: `Hey my name is LogicalToast formally known as Toast!`,
     pronouns: "he/him",
-    image: "/toast.png", 
+    image: "/LogicalToast.png", 
     // color: "#233554", 
     color: "#7d0c10", 
     type: "website",
@@ -68,7 +68,7 @@ export default function Home() {
     keywords: "software development, coding, web development",
     siteName: "Toast.com",
     twitterUsername: "@Toast4000", // Your Twitter username
-    canonicalURL: "https://github.com/toastcanyon",
+    canonicalURL: "https://github.com/logicaltoast",
     faviconURL: "/favicon.ico", // Replace with your favicon URL
     locale: "en_US", // Specify your website's locale
   };
@@ -82,8 +82,8 @@ export default function Home() {
         <meta name="theme-color" content={meta.color} />
         <meta content={meta.description} name="description" />
         <meta content={meta.pronouns} name="pronouns" />
-        <meta property="og:url" content={`https://github.com/toastcanyon`} />
-        <link rel="canonical" href={`https://github.com/toastcanyon`} />
+        <meta property="og:url" content={`https://github.com/logicaltoast`} />
+        <link rel="canonical" href={`https://github.com/logicaltoast`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Toast" />
         <meta property="og:description" content={meta.description} />
@@ -117,7 +117,7 @@ export default function Home() {
         {context.sharedState ? <SomethingIveBuilt /> : <></>}
         {context.sharedState ? <GetInTouch /> : <></>}
         {context.sharedState ? (
-          <Footer githubUrl={"https://github.com/toastcanyon"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/logicaltoast"} hideSocialsInDesktop={true} />
           ) : (
           <></>
         )}

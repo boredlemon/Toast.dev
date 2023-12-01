@@ -140,7 +140,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Another Project</span>
-                <a href="https://github.com/toastcanyon/ToastYT" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/logicaltoast/ToastYT" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     YouTube Portfolio Test
                   </span>
@@ -231,7 +231,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">PostgreSQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/toastcanyon/CrunchCord" />
+                <GithubIcon link="https://github.com/logicaltoast/CrunchCord" />
                   <ExternalLink url={"https://crunchcord.vercel.app"} router={router} />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
@@ -306,7 +306,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Parser</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/toastcanyon" />
+                <GithubIcon link="https://github.com/logicaltoast" />
                 <ExternalLink url={"/cupide"} router={router} /> 
                 {/* download Hydro */}
               </div>
@@ -322,7 +322,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/logicaltoast/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -358,7 +358,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Github Tools</span>
-                <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/logicaltoast/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                   git-toaster-graphing
                   </span>
@@ -380,8 +380,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Github Markdown</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/toastcanyon/git-toaster-graphing" />
-                <a href="https://github.com/toastcanyon/git-toaster-graphing" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https://github.com/logicaltoast/git-toaster-graphing" />
+                <a href="https://github.com/logicaltoast/git-toaster-graphing" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -397,7 +397,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://github.com/toastcanyon/CoffeeOS" target={"_blank"} rel="noreferrer">
+              <a href="https://github.com/logicaltoast/CoffeeOS" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -425,7 +425,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://github.com/toastcanyon/CoffeeOS" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/logicaltoast/CoffeeOS" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     CoffeeOS
                   </span>
@@ -449,7 +449,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Assembly</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/toastcanyon/CoffeeOS" />
+                <GithubIcon link="https://github.com/logicaltoast/CoffeeOS" />
               </div>
             </div>
           </div>

@@ -53,7 +53,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-Hi! I am a <span className="text-AAsecondary">full-stack developer!</span>. I love to code during my free time. I mostly work on building websites and learning more about programming. <br className="2xl:block hidden" />
+Hey, welcome to my website! My name is LogicalToast formally known as Toast! I am a <span className="text-AAsecondary">full-stack developer and content creator</span>. I love to code during my free time. I mostly work on building websites and learning more about programming. <br className="2xl:block hidden" />
         Ever since I got my first computer I had been thinking to be a software engineer for so long. This came true when I wrote my first program in JavaScript which was my Discord Bot. I learned a lot from the project like SQL, databases, JavaScript, Version Control, and much more. This was just the begining of my journey.
       </motion.h3>
       <motion.div

@@ -266,7 +266,7 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <Footer className="absolute bottom-0" link="https://github.com/toastcanyon" />
+          <Footer className="absolute bottom-0" link="https://github.com/logicaltoast" />
         </>
       )}
 
@@ -280,7 +280,7 @@ export default function Home() {
             statistics={statistics}
             timeToType={timeToType}
           />
-          <Footer className="pt-16" link="https://github.com/toastcanyon" />
+          <Footer className="pt-16" link="https://github.com/logicaltoast" />
         </>
       )}
     </div>

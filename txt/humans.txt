@@ -27,7 +27,7 @@ _______________________________________________________________________________
 
 Programmer | デザイナー
 
-Toast (Dolphin#6086)
+LogicalToast (Dolphin#6086)
 game development & web development
 
 Design tools:
@@ -35,7 +35,7 @@ Visual Studio code
 Davinci Resolve
 Docker
 
-github.com/toastcanyon
+github.com/logicaltoast
 
 _______________________________________________________________________________
 
