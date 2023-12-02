@@ -59,11 +59,11 @@ export default function Home() {
     title: "Toast - Developer",
     description: `Hey my name is LogicalToast formally known as Toast!`,
     pronouns: "he/him",
-    image: "/LogicalToast.png", 
+    image: "/portrait.png", 
     // color: "#233554", 
-    color: "#21a621", 
+    color: "#233554", 
     type: "website",
-    discordColor: "#21a621", // Custom color tag for Discord
+    discordColor: "#233554", // Custom color tag for Discord
     author: "Toast",
     keywords: "software development, coding, web development",
     siteName: "Toast.com",
